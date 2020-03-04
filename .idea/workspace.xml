@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0280fe0-8f44-4f69-84bd-2358f304c30d" name="Default Changelist" comment="" />
+    <list default="true" id="d0280fe0-8f44-4f69-84bd-2358f304c30d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YgNIAkCVSkoNymJcyy8qYvOeMA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -51,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583360194988</updated>
-      <workItem from="1583360198887" duration="1771000" />
+      <workItem from="1583360198887" duration="1985000" />
     </task>
     <servers />
   </component>
@@ -59,22 +63,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583362457132">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583362623140">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583362457132" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583362457131">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583362623140" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583362623139">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583362457131" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583362457131">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583362623139" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583362623138">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583362457131" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583362457132">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583362623138" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583362623140">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583362457132" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583362623140" />
+    <state x="540" y="168" key="RollbackChangesDialog" timestamp="1583362749299">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="540" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1583362749299" />
     <state x="208" y="31" key="SettingsEditor" timestamp="1583360335747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
