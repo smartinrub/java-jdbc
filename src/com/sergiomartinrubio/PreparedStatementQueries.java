@@ -30,7 +30,7 @@ public class PreparedStatementQueries {
                 while (result.next()) {
                     System.out.println(result.getString("email"));
                     System.out.println(result.getString("name"));
-                    System.out.println(result.getString("age"));
+                    System.out.println(result.getInt("age"));
                     System.out.println(result.getString("date_time"));
                 }
             }
