@@ -2,7 +2,7 @@ package com.sergiomartinrubio;
 
 import java.sql.*;
 
-public class Transactions {
+public class Metadata {
 
     public static void main(String[] args) throws SQLException {
         try (Connection connection = getConnection();
@@ -18,27 +18,15 @@ public class Transactions {
                     "date_time TIMESTAMP" +
                     ")ENGINE=InnoDB;");
 
-            connection.setAutoCommit(false);
-
             // Creates record in user table
             statement.executeUpdate("INSERT INTO user(email, name, age) " +
                     "VALUES('econsergio@gmail.com', 'Sergio', 29)");
 
-            // Creates another record in user table
-            statement.executeUpdate("INSERT INTO user(email, name, age) " +
-                    "VALUES('jose@gmail.com', 'Jose', 61)");
-            connection.commit();
-
-            connection.setAutoCommit(true);
-
-            // Query all records from user table
-            try (ResultSet result = statement.executeQuery("SELECT * FROM user")) {
-                while (result.next()) {
-                    System.out.println(result.getString(1));
-                    System.out.println(result.getString(2));
-                    System.out.println(result.getInt(3));
-                    System.out.println(result.getString(4));
-                }
+            DatabaseMetaData metaData = connection.getMetaData();
+            ResultSet resultSet = metaData.getTables(null, null, null, new String[]{"TABLE"});
+            while (resultSet.next()) {
+                // This returns all table names
+                System.out.println(resultSet.getString(3));
             }
         }
     }

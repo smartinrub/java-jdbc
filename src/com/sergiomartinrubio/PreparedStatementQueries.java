@@ -5,6 +5,7 @@ import java.sql.*;
 public class PreparedStatementQueries {
 
     public static void main(String[] args) throws SQLException {
+
         String selectByEmail = "SELECT * FROM user WHERE name = ?";
 
         try (Connection connection = getConnection();

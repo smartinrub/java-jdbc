@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class ScrollableAndUpdatableResultSet {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         try (Connection connection = getConnection();
              Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE)) {
 
@@ -78,20 +78,6 @@ public class ScrollableAndUpdatableResultSet {
                 System.out.println(result.getInt(3));
                 System.out.println(result.getString(4));
                 System.out.println();
-            }
-
-            // Deletes user table
-            statement.executeUpdate("DROP TABLE user");
-
-            SQLWarning warning = statement.getWarnings();
-            while (warning != null) {
-                System.out.println(warning.getNextWarning());
-            }
-        } catch (SQLException sqlException) {
-            System.out.println(sqlException.getSQLState());
-            System.out.println(sqlException.getErrorCode());
-            for (Throwable throwable : sqlException) {
-                System.out.println(throwable.getMessage());
             }
         }
     }
